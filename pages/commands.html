@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands</title>
+    <link rel="icon" href="../Shade.png">
+    <link rel="stylesheet" href="commands.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <meta data-n-head='ssr' data-hid='theme-color' name='theme-color' content='#00A2FF'>
+    <meta data-n-head='ssr' data-hid='og:type' name='og:type' content='website'>
+    <meta data-n-head='ssr' data-hid='og:title' name='og:title' content='Shade - Discord Bot!'>
+    <meta data-n-head='ssr' data-hid='og:url' name='og:url' content='https://shade-bot.xyz'>
+    <meta data-n-head='ssr' data-hid='og:image' name='og:image'
+          content='Shade.png'>
+    <meta data-n-head='ssr' data-hid='description' name='description'
+          content='Shade is a versatile discord bot in permanent construction and made with love and fun in mind to keep your Discord members busy and active. But it does not stop there...'>
+    <meta data-n-head='ssr' data-hid='og:description' name='og:description'
+          content='Shade is a versatile discord bot in permanent construction and made with love and fun in mind to keep your Discord members busy and active. But it does not stop there...'>
+
+
+</head>
+<body onload="loaderFunction()">
+
+<div id="loader">
+    <div class="loading">
+    <span></span>
+    </div>
+</div>
+
+
+<div id="page">
+ <nav>
+  <div class="logo noselect">
+    <img class="noselect" src="../Shade.png"> Shade
+  </div>
+
+  <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+  <ul class="mainMenu noselect">
+    <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a class="active" href="#"><i class="far fa-list-alt"></i> Commands</a></li>
+    <li><a href="about.html"><i class="fas fa-quote-left"></i> About</a></li>
+    <li><a href="https://discord.gg/Pt964P4sRk" target="_none"><i class="fas fa-headset"></i> Support</a></li>
+    <li><a class="invite noselect" href="https://discord.com/oauth2/authorize?client_id=693143375083470878&amp;permissions=392304&amp;scope=bot" target="_none"><i class="fab fa-discord"></i> Add to server</a></li>
+      <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+  </ul>
+</nav>
+
+
+
+<div class="container clear noselect">
+  <div class="row wrapper">
+
+    <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+    <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+      <div class="sidepanel">
+        <div class="divider left"></div>
+
+          <a class="title" href="#introduction">Introduction</a>
+
+          <a class="section" href="#aboutthisbot">About this Bot</a>
+          <a class="section" href="#technology">Technology</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#gettingstarted">Getting Started</a>
+
+          <a class="section" href="#inbothelp">In-Bot Help</a>
+           <a class="section" href="#addingthebot">Adding the Bot</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#commands">Commands</a>
+
+          <a class="section" href="#Administration">Administration</a>
+          <a class="section" href="#Moderation">Moderation</a>
+          <a class="section" href="#General">General</a>
+          <a class="section" href="#Giveaway">Giveaway</a>
+          <a class="section" href="#Fun">Fun (soon)</a>
+          <a class="section" href="#Level">Level system (soon)</a>
+          <a class="section" href="#Economy">Economy system (soon)</a>
+          <a class="sub-section" href="#soon">Soon</a>
+          <a class="section" href="#config">Configuration (soon)</a>
+          <div class="divider left"></div>
+
+          <a class="title" href="#accesibility">SOON</a>
+
+       <div class="space double"></div>
+
+      </div>
+
+      <div class="right-col">
+          <h1 id="introduction">Introduction</h1>
+
+          <p id="aboutthisbot">Shade is the perfect multifunction bot to spice up your server. The bot is community driven and can also be developed with your help.</p>
+
+          <h2>About this Bot</h2>
+
+          <p id="technology">The bot provides several features such as moderation, information, fun and many more! The bot is hosted 24/7 and you can be reassured about its availability.</p>
+
+          <h2>Technology</h2>
+
+          <p id="gettingstarted">The bot is built with JavaScript using the discord.js library, similarly with the API that the bot uses.<br><br>
+              The bot uses its own API to filter and deliver high quality fun and useful commands to your server. With the help of our super fast and flexible API, we are able to provide you with the best and fastest features.</p>
+
+  <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1>Getting Started</h1>
+
+          <p id="inbothelp">To get started with our bot is fairly easy and we have done our best to make it simpler for you.</p>
+
+          <h1>In-bot help</h1>
+
+          <p>You also have the option to get help on all the bot commands right through discord with the use of the
+          bot's internal help command.</p>
+
+          <p id="addingthebot"><b>Important:</b> You must agree to our usage policy and the question about it will be
+              quite strict.<br> Use <span class="codeBlock">s!policy </span> for more information.</p>
+
+
+          <h2>Adding the bot</h2>
+
+          <p id="commands">To add the bot to your server <a href="https://discord.com/oauth2/authorize?client_id=693143375083470878&scope=bot&permissions=392304" target="_none">click here.</a><br><br>This does needs you to either be the owner of the server or have "manage server" permissions.</p>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+          <h1>Shade badge</h1>
+          <div>
+              <ul>
+                  <li class="collapsible">Owner</li>
+                  <div class="cmdCollapse">
+                      Permission level : 40
+                      <br>
+                      Description : Shade bot creator
+                      <br>
+                      Status : Unavailable
+                  </div>
+                  <li class="collapsible">Developper</li>
+                  <div class="cmdCollapse">
+                      Permission level : 30
+                      <br>
+                      Description : Shade developer
+                      <br>
+                      Status : Unavailable
+                  </div>
+                  <li class="collapsible">Beta tester</li>
+                  <div class="cmdCollapse">
+                      Permission level : 20
+                      <br>
+                      Description : Beta tester member
+                      <br>
+                      Status : Available
+                  </div>
+                  <li class="collapsible">Premium</li>
+                  <div class="cmdCollapse">
+                      Permission level : 10
+                      <br>
+                      Description : Superior access to shade
+                      <br>
+                      Status : Available
+                  </div>
+                  <li class="collapsible">User</li>
+                  <div class="cmdCollapse">
+                      Permission level : 0
+                      <br>
+                      Description : Shade user
+                      <br>
+                      Status : Available
+                      <br>
+              </ul>
+          </div>
+
+      <div id="Badge" class="divider" style="width:24%; margin:30px 0;"></div>
+
+
+          <h1>Commands</h1>
+          <div>Syntax:
+            <ul>
+              <li><span class="codeBlock">< ></span> : Required Argument</li>
+              <li><span class="codeBlock">[ ]</span> : Optional Argument</li>
+              <li id="Administration"><span class="codeBlock">( )</span> : Command Aliases</li>
+            </ul>
+          </div>
+
+          <h2>Global commands</h2>
+          <ul>
+            <li>Syntax</li>
+            <div>
+              All the commands here have the same syntax : <span class="codeBlock">s! < command name > </span>
+              <br>
+              You can do <span class="codeBlock">s! help < command name > </span> to get more info about a command.
+              <br><br>
+            </div>
+              <br id="Moderation">
+            <li>Administration</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">logs</span></li>
+                <li><span class="codeBlock">prefix</span></li>
+              </ul>
+            </div>
+              <br id="General">
+            <li>Moderation</li>
+              <div> With action commands you can also mention users while executing the command.</div>
+              <div>
+                  <ul>
+                      <li><span class="codeBlock">ban</span></li>
+                      <li><span class="codeBlock">kick</span></li>
+                      <li><span class="codeBlock">unban</span></li>
+                      <li><span class="codeBlock">clear</span></li>
+                  </ul>
+                <br id="Fun">
+            <li>General</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">ping</span></li>
+                <li><span class="codeBlock">link</span></li>
+                <li><span class="codeBlock">stats</span></li>
+                  <li><span class="codeBlock">avatar</span></li>
+                  <li><span class="codeBlock">suggest</span></li>
+                <li><span class="codeBlock">userinfo ( ui )</span></li>
+                <li><span class="codeBlock">serverinfo ( si )</span></li>
+              </ul>
+              <br id="Giveaway">
+
+                <li>Giveaway</li>
+                <div>
+                  <ul>
+                    <li><span class="codeBlock">gcreate</span></li>
+                    <li><span class="codeBlock">greroll</span></li>
+                    <li><span class="codeBlock">gdelete</span></li>
+                  </ul>
+                    <br id="Level">
+            <li>Fun</li>
+             <div>
+                    <ul>
+                        <li><span class="codeBlock">say</span></li>
+                        <li><span class="codeBlock">8ball</span></li>
+                    </ul>
+                    <br id="Economy">
+                    <li>Level system ( SOON )</li>
+                    <div>
+                        <ul>
+                            <li><span class="codeBlock">level</span></li>
+                            <li><span class="codeBlock">addxp</span></li>
+                            <li><span class="codeBlock">adminlevels</span></li>
+                            <li><span class="codeBlock">rewards</span></li>
+                            <li><span class="codeBlock">removexp</span></li>
+                        </ul>
+                        <br id="config">
+                        <li>Economy system ( SOON )</li>
+                        <div>
+                            <ul>
+                                <li><span class="codeBlock">bank</span></li>
+                                <li><span class="codeBlock">admineconomy</span></li>
+                                <li><span class="codeBlock">daily</span></li>
+                                <li><span class="codeBlock">sell</span></li>
+                                <li><span class="codeBlock">shop</span></li>
+                                <li><span class="codeBlock">value</span></li>
+                                <li><span class="codeBlock">buy</span></li>
+                            </ul>
+                            <br>
+          <h2>Config ( SOON )</h2>
+          <ul>
+            <li class="collapsible">Enable Command</li>
+            <div class="cmdCollapse">
+              Description : Let's you enable any disabled command.
+              <br>
+              Example : <span class="codeBlock">s! enable serverinfo</span>
+              <br>
+            </div>
+
+            <li class="collapsible">Disable Command</li>
+            <div class="cmdCollapse">
+              Description : Let's you disable any command.
+              <br>
+              Example : <span class="codeBlock">s! disable warn</span>
+              <br>
+            </div>
+
+            <li class="collapsible">List Disabled Commands</li>
+            <div class="cmdCollapse">
+              Description : Lists all the disbaled commands in the server.
+              <br>
+              Example : <span class="codeBlock">s! listdisabledcommands</span>
+              <br>
+            </div>
+          </ul>
+          <div class="doublespace"></div>
+      </div>
+
+  </div>
+</div>
+</div>
+  <script src="../index.js"></script>
+  <script src="./commands.js"></script>
+</body>
+</html>
